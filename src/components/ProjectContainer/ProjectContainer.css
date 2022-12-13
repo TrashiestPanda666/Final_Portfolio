@@ -1,0 +1,27 @@
+.project {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: transform 0.2s linear;
+}
+
+.project a{
+  margin-top: 1em;
+  font-weight: bold;
+  border: 5px solid #2978b5;
+}
+
+.project img{
+  width: 50%;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+.project__description {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
